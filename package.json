@@ -1,0 +1,17 @@
+{
+    "name": "ehr-chaincode",
+    "version": "1.0.0",
+    "description": "Chaincode for managing EHRs on Hyperledger Fabric",
+    "main": "ehr.js",
+    "engines": {
+        "node": ">=12",
+        "npm": ">=5"
+    },
+    "dependencies": {
+        "fabric-contract-api": "^2.0.0",
+        "fabric-shim": "^2.2.3"
+    },
+    "scripts": {
+        "start": "fabric-chaincode-node start"
+    }
+}
